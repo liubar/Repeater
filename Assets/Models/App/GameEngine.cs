@@ -108,6 +108,7 @@ namespace App
             Time.timeScale = 0;
             _currentRound = 0;
             StopAllCoroutines();
+            ScoreTitle.text = string.Empty;
 
             // Disable ui elements
             TimeTitle.gameObject.SetActive(false);

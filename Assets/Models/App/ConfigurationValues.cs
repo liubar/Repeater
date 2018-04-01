@@ -10,7 +10,7 @@
         // Initial playing time
         public static float StartTime = 15;
         // Accuracy of pattern matching
-        public static float SimilarityThreshold = 0.9f;
+        public static float SimilarityThreshold = 0.83f;
         public static string TemplateFolder = "/Figures";
     }
 }
