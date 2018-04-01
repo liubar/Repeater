@@ -68,6 +68,7 @@ namespace App
         public void StartGame()
         {
             _player.Score = 0;
+            ScoreTitle.text = string.Empty;
             TotalTime = ConfigurationValues.StartTime;
             _isPaused = false;
             Time.timeScale = 1;
@@ -108,7 +109,6 @@ namespace App
             Time.timeScale = 0;
             _currentRound = 0;
             StopAllCoroutines();
-            ScoreTitle.text = string.Empty;
 
             // Disable ui elements
             TimeTitle.gameObject.SetActive(false);
